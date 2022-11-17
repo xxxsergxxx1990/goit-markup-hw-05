@@ -95,6 +95,10 @@ a{
     line-height: 1.14;
     color: var(--text-color);
 
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+
 }
 
 .page-header--link:hover,
@@ -129,6 +133,10 @@ a{
     display: flex;
     align-items: center;
     fill: #757575;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 .header--icon{
     
@@ -154,6 +162,10 @@ a{
     display: flex;
     align-items: center;
     fill: #757575;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 .page-header--tel:focus,
 .page-header--tel:hover{
@@ -364,6 +376,10 @@ a{
     align-items: center;
     justify-content: center;
     fill: #afb1b8;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 .team--link:hover,
 .team--link:focus{
@@ -402,6 +418,11 @@ a{
     height: 90px;
     fill: #AFB1B8;
     border-radius: 4px;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border-color;
+    
 }
 .clients--link:not(last-child){
     margin-right: 30px;
@@ -411,6 +432,11 @@ a{
     fill: var(--text-accent);
     border-color: var(--text-accent);
 }
+.clients--icon{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 
 /* ----------backdrop---------- */
 
@@ -482,6 +508,10 @@ a{
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 .foot--connection:hover,
 .foot--connection:focus{
@@ -492,6 +522,10 @@ a{
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 .foot--tel:hover,
 .foot--tel:focus{
@@ -520,6 +554,10 @@ a{
     justify-content: center;
     fill: #fff;
     background: rgba(255, 255, 255, 0.1);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 
 .foot--link:hover, 
@@ -537,7 +575,7 @@ a{
     display: flex;
 }
 
-/* портфолио */
+/* ---------------портфолио ----------------*/
 .port{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -567,6 +605,10 @@ a{
     font-size: 16px;
     line-height: 1.62;
     font-family: 'Roboto';
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color, color, box-shadow;
 
 }
 .port--button:not(last-child){
@@ -617,6 +659,9 @@ a{
 .port--link{
     background: #FFFFFF;
     display: block;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 .port--link:hover .port--over{
     opacity: 1;
